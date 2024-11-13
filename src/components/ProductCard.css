@@ -1,0 +1,47 @@
+/* ProductCard.css */
+.product-card {
+    width: 250px; /* Puedes ajustar el tamaño según lo necesites */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos dentro de la tarjeta */
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 1rem;
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .details-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .details-button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .details-button:hover {
+    background-color: #0056b3;
+  }

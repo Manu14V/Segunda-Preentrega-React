@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S21",
+      "price": 799,
+      "image": "https://example.com/s21.jpg"
+    },
+    {
+      "id": 2,
+      "title": "iPhone 13",
+      "price": 999,
+      "image": "https://example.com/iphone13.jpg"
+    },
+    {
+      "id": 3,
+      "title": "OnePlus 9 Pro",
+      "price": 1069,
+      "image": "https://example.com/oneplus9pro.jpg"
+    }
+  ]

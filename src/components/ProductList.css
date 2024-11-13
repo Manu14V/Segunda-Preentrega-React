@@ -1,0 +1,68 @@
+/* Contenedor principal de las tarjetas */
+.products-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila cuando no hay espacio */
+    gap: 20px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas en el contenedor */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo individual de cada tarjeta (puedes ajustarlo a tus necesidades) */
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px; /* Tamaño fijo para las tarjetas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para que se vean elevadas */
+    transition: transform 0.3s ease; /* Animación de transformación */
+  }
+  
+  /* Efecto de hover para las tarjetas */
+  .product-card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta ligeramente */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer hover */
+  }
+  
+  /* Estilo de la imagen del producto */
+  .product-card img {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Título de la tarjeta (nombre del producto) */
+  .product-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Precio del producto */
+  .product-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  /* Botón de detalles (enlace) */
+  .product-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto hover en el botón */
+  .product-card button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el mouse */
+  }

@@ -1,0 +1,31 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .cart-icon {
+    font-size: 1.5em;
+    margin-left: auto;
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .cart-icon:hover {
+    color: #ff4500; /* Color para el hover */
+  }
